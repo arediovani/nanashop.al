@@ -1,21 +1,26 @@
 import React from 'react'
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 const Header = () =>{
     return(
-        <header class="main-header_area-2">
-            <div class="header-middle_area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="header-middle_nav">
-                                <div class="header-logo_area">
-                                    <a href="index.html">
+        <header className="main-header_area-2">
+            <div className="header-middle_area">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="header-middle_nav">
+                                <div className="header-logo_area">
+                                    <Link to="/">
                                         <img src="assets/images/menu/logo/1.png" alt="Header Logo"></img>
-                                    </a>
-                                </div>
-                                <div class="header-contact d-none d-md-flex">
-                                    <i class="fa fa-headphones-alt"></i>
-                                    <div class="contact-content">
+                                    </Link>
+                               </div>
+                                <div className="header-contact d-none d-md-flex">
+                                    <i className="fa fa-headphones-alt"></i>
+                                    <div className="contact-content">
                                         <p>
                                            Na Kontaktoni 
                                             <br></br>

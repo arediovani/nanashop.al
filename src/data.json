@@ -1,0 +1,287 @@
+[
+  {
+    "id": 0,
+    "name": "esse dolore",
+    "description": "Consequat eiusmod laboris tempor veniam consectetur esse nulla adipisicing nostrud qui. Ea eiusmod minim cupidatat quis aliqua consequat. Dolor qui ipsum officia fugiat. Lorem anim consequat qui nisi. Occaecat esse dolore deserunt dolore duis ea labore nulla nisi ex esse dolor officia.\r\n",
+    "price": 6205,
+    "color": "Blue",
+    "category": "kudine",
+    "pictures": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "size": "X",
+    "tags": [
+      "sunt",
+      "eu",
+      "dolore",
+      "amet",
+      "adipisicing",
+      "sunt",
+      "amet"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Lorem officia",
+    "description": "Adipisicing culpa ut id pariatur in eiusmod officia esse sint non. Non dolore id ipsum magna dolore. Fugiat incididunt laborum quis ad fugiat nulla mollit mollit cillum ad irure cupidatat.\r\n",
+    "price": 8641,
+    "color": "BlueViolet",
+    "category": "fustan",
+    "pictures": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "size": "M",
+    "tags": [
+      "qui",
+      "magna",
+      "sunt",
+      "dolore",
+      "in",
+      "eu",
+      "sunt"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "laborum veniam",
+    "description": "Laboris ad exercitation nostrud cupidatat aliqua adipisicing. Fugiat non veniam sint do enim officia est. Quis excepteur in duis proident velit sint ipsum voluptate nostrud id tempor excepteur. Labore voluptate ut id esse non cillum officia velit adipisicing.\r\n",
+    "price": 8264,
+    "color": "Brown",
+    "category": "presh",
+    "pictures": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "size": "XL",
+    "tags": [
+      "non",
+      "sunt",
+      "voluptate",
+      "pariatur",
+      "tempor",
+      "id",
+      "non"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "sit adipisicing",
+    "description": "Quis reprehenderit cupidatat proident proident laboris occaecat exercitation esse dolore laboris exercitation. Deserunt labore irure excepteur eu aliquip tempor. Proident minim id mollit dolor in nisi tempor. Anim exercitation cupidatat irure aliquip anim nostrud dolor qui ipsum. Aute et deserunt nisi magna proident voluptate culpa ut laboris mollit et ut. Elit proident ea minim amet anim in.\r\n",
+    "price": 5273,
+    "color": "AntiqueWhite",
+    "category": "kudine",
+    "pictures": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "size": "XL",
+    "tags": [
+      "mollit",
+      "tempor",
+      "eu",
+      "duis",
+      "tempor",
+      "aute",
+      "laboris"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "voluptate aute",
+    "description": "Aliquip dolore consequat eiusmod in tempor ex sunt tempor laborum aliquip nostrud enim ipsum reprehenderit. Officia consequat sint proident incididunt dolore fugiat reprehenderit mollit commodo. Consequat anim excepteur velit aute. Officia laborum non amet adipisicing.\r\n",
+    "price": 3619,
+    "color": "Aqua",
+    "category": "lesh",
+    "pictures": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "size": "S",
+    "tags": [
+      "quis",
+      "aliquip",
+      "tempor",
+      "cillum",
+      "sint",
+      "Lorem",
+      "proident"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "et proident",
+    "description": "Ipsum mollit pariatur enim incididunt. Esse esse est non ipsum nulla. Lorem voluptate esse adipisicing id duis non quis Lorem Lorem. Occaecat nisi fugiat tempor est aute sit. Proident velit et fugiat deserunt consectetur nulla magna aliqua nostrud.\r\n",
+    "price": 2473,
+    "color": "Beige",
+    "category": "lesh",
+    "pictures": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "size": "M",
+    "tags": [
+      "velit",
+      "duis",
+      "minim",
+      "eu",
+      "nisi",
+      "Lorem",
+      "voluptate"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "commodo ea",
+    "description": "Laborum veniam mollit nisi sunt consectetur duis mollit veniam aliqua consequat labore voluptate laboris. Aliqua deserunt ea sit irure fugiat labore nulla enim sint. Tempor voluptate quis quis consectetur incididunt laboris. Id ullamco excepteur commodo in qui reprehenderit mollit.\r\n",
+    "price": 8942,
+    "color": "Bisque",
+    "category": "lesh",
+    "pictures": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "size": "S",
+    "tags": [
+      "dolore",
+      "in",
+      "non",
+      "ipsum",
+      "ex",
+      "quis",
+      "magna"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "ipsum laborum",
+    "description": "Ex ipsum culpa cillum culpa ullamco amet ullamco irure eiusmod nulla. Officia esse culpa culpa esse enim ex eiusmod mollit eu Lorem ullamco. Et occaecat cillum tempor veniam anim irure nostrud aliquip id. Deserunt qui amet quis exercitation.\r\n",
+    "price": 9400,
+    "color": "Aqua",
+    "category": "lesh",
+    "pictures": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "size": "XL",
+    "tags": [
+      "nostrud",
+      "irure",
+      "enim",
+      "velit",
+      "ullamco",
+      "occaecat",
+      "veniam"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "aliquip aliquip",
+    "description": "Consequat fugiat id aliquip et reprehenderit. Duis Lorem elit aliquip ad consectetur commodo reprehenderit minim non eu in do dolor. Ullamco ipsum commodo consequat proident labore aliqua quis id.\r\n",
+    "price": 6258,
+    "color": "Black",
+    "category": "lesh",
+    "pictures": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "size": "S",
+    "tags": [
+      "sunt",
+      "consequat",
+      "proident",
+      "dolore",
+      "nostrud",
+      "magna",
+      "in"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "ea laborum",
+    "description": "Velit adipisicing est excepteur consequat ut. Quis cillum ut ad ut minim magna. Ex ea officia ad adipisicing aliqua aliquip adipisicing exercitation velit dolore velit tempor. Laboris velit non velit proident officia nulla est amet. Amet duis aliqua ad pariatur ex ipsum duis deserunt ut est sit.\r\n",
+    "price": 3306,
+    "color": "Aqua",
+    "category": "kudine",
+    "pictures": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "size": "S",
+    "tags": [
+      "Lorem",
+      "officia",
+      "consequat",
+      "non",
+      "consectetur",
+      "laborum",
+      "incididunt"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "amet irure",
+    "description": "Incididunt consequat ut esse nulla incididunt incididunt sit. In minim reprehenderit ea veniam ea nulla dolore. Commodo mollit irure consequat occaecat dolor esse. Sint ea eiusmod anim fugiat consectetur nulla ad cupidatat reprehenderit proident elit. Amet laborum ut reprehenderit aliquip ullamco qui est laborum.\r\n",
+    "price": 2266,
+    "color": "Black",
+    "category": "lesh",
+    "pictures": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "size": "XXL",
+    "tags": [
+      "velit",
+      "nulla",
+      "elit",
+      "Lorem",
+      "Lorem",
+      "in",
+      "culpa"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "elit nostrud",
+    "description": "Ad incididunt deserunt ad reprehenderit magna pariatur veniam aliquip commodo Lorem esse velit id labore. Amet minim anim sit duis minim sit sit id ipsum voluptate proident nisi adipisicing. Consectetur Lorem voluptate laboris ea sunt dolore aliqua ea dolor dolor. Nostrud elit incididunt officia dolor veniam ipsum nisi. Non ea nulla laborum ea eiusmod irure ad labore reprehenderit excepteur. Enim velit cupidatat magna irure nisi nostrud eu eiusmod ad ad voluptate tempor.\r\n",
+    "price": 4616,
+    "color": "Bisque",
+    "category": "presh",
+    "pictures": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "size": "X",
+    "tags": [
+      "esse",
+      "amet",
+      "sit",
+      "enim",
+      "ipsum",
+      "esse",
+      "cupidatat"
+    ]
+  }
+]
