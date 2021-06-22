@@ -1,12 +1,12 @@
 import React from 'react'
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
 } from "react-router-dom";
-const Header = () =>{
-    return(
+const Header = () => {
+    return (
         <header className="main-header_area-2">
             <div className="header-middle_area">
                 <div className="container">
@@ -15,17 +15,18 @@ const Header = () =>{
                             <div className="header-middle_nav">
                                 <div className="header-logo_area">
                                     <Link to="/">
-                                        <img src="assets/images/menu/logo/1.png" alt="Header Logo"></img>
+                                        <img src="/header-logo.png" alt="Header Logo"></img>
                                     </Link>
-                               </div>
+                                </div>
                                 <div className="header-contact d-none d-md-flex">
-                                    <i className="fa fa-headphones-alt"></i>
                                     <div className="contact-content">
-                                        <p>
-                                           Na Kontaktoni 
-                                            <br></br>
-                                        Free Support: blablabla
-                                    </p>
+                                        <a href="tel:+355693300032">
+                                            <p>
+                                                Na Kontaktoni
+                                                <br></br>
+                                                Per cdo informacion
+                                            </p>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -33,7 +34,7 @@ const Header = () =>{
                     </div>
                 </div>
             </div>
-        </header>
+        </header >
     )
 }
 export default Header;
