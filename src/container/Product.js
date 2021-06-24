@@ -11,12 +11,12 @@ const Product = ({ clothes }) => {
                 <div className="container">
                     <div className="sp-nav">
                         <div className="row">
-                            <div className="col-lg-5">
+                            <div className="col-lg-4">
                                 <Carousel>
-                                    {clothe.pictures.map((picture, index) => <img key={index} src={picture}></img>)}
+                                    {clothe.pictures.map((picture,index) => <div key={index}><img src={picture}></img></div>)}
                                 </Carousel>
                             </div>
-                            <div className="col-lg-7">
+                            <div className="col-lg-8">
                                 <div className="sp-content">
                                     <div className="sp-heading">
                                         <h5>{clothe.name}</h5>
@@ -28,50 +28,42 @@ const Product = ({ clothes }) => {
                                     <div className="product-size_box">
                                         <span>Madhesia: {clothe.size}</span>
                                     </div>
-
-                                    <div className="social-links">
+                                    <div className="kenne-tag-line">
+                                        <h6>Tags:</h6>
+                                        {
+                                            clothe.tags.map((i, e) => {
+                                                return <a href="javascript:void(0)">{i}</a>
+                                            })
+                                        }
+                                    </div>
+                                    <div className="kenne-social_link">
                                         <ul>
-                                            <li className="whatsapp">
-                                                <a href={"https://wa.me/+355693300032?text=Pershendetje jam i interesuar per produktin me emrin " + clothe.name + " dhe me id " + clothe.id} >
-                                                    <i className="fab fa-whatsapp"></i>
-                                                    <span className="social-span">
-                                                        Porosit me Whatsapp
-                                                    </span>
+                                            <li className="facebook">
+                                                <a href="https://www.facebook.com" data-toggle="tooltip" target="_blank" title="Facebook">
+                                                    <i className="fab fa-facebook"></i>
                                                 </a>
                                             </li>
-                                            <li className="viber">
-                                                <a href="viber://add?number=355693300032" >
-                                                    <i className="fab fa-viber"></i>
-                                                    <span className="social-span">
-                                                        Porosit me Viber
-                                                    </span>
+                                            <li className="twitter">
+                                                <a href="https://twitter.com" data-toggle="tooltip" target="_blank" title="Twitter">
+                                                    <i className="fab fa-twitter-square"></i>
                                                 </a>
                                             </li>
-                                            <li className="phone">
-                                                <a href="tel:355693300032" >
-                                                    <i class="fas fa-phone"></i>
-                                                    <span className="social-span">
-                                                        Porosit me telefon
-                                                    </span>
+                                            <li className="youtube">
+                                                <a href="https://www.youtube.com" data-toggle="tooltip" target="_blank" title="Youtube">
+                                                    <i className="fab fa-youtube"></i>
                                                 </a>
                                             </li>
-                                            <li className="email">
-                                                <a href="mailto:nanashop60@gmail.com" >
-                                                    <i class="fas fa-envelope-open-text"></i>
-                                                    <span className="social-span">
-                                                        Dergoni nje email
-                                                    </span>
+                                            <li className="google-plus">
+                                                <a href="https://www.plus.google.com/discover" data-toggle="tooltip" target="_blank" title="Google Plus">
+                                                    <i className="fab fa-google-plus"></i>
+                                                </a>
+                                            </li>
+                                            <li className="instagram">
+                                                <a href="https://rss.com" data-toggle="tooltip" target="_blank" title="Instagram">
+                                                    <i className="fab fa-instagram"></i>
                                                 </a>
                                             </li>
                                         </ul>
-                                    </div>
-                                    <div className="tags">
-                                        <a>Tags:</a>
-                                        {
-                                            clothe.tags.map((i, e) => {
-                                                return <a >{i}</a>
-                                            })
-                                        }
                                     </div>
                                 </div>
                             </div>
