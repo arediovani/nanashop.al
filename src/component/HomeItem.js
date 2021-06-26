@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { collapseTextChangeRangesAcrossMultipleVersions } from 'typescript';
 
 
@@ -7,30 +7,21 @@ const HomeItem = ({ clothe }) => {
     if (clothe.hasOwnProperty('name')) {
 
         return (
-                <div className="col-lg-4 col-md-4 col-sm-6">
-            <Link to={"/product/" + clothe.id}>
-                    <div className="product-item">
-                        <div className="single-product">
-                            <div className="product-img">
-                                <a href="single-product.html">
-                                    <img className="primary-img" src={clothe.pictures[0]} alt={clothe.description}></img>
-                                </a>
-                            </div>
-                            <div className="product-content">
-                                <div className="product-desc_info">
-                                    <h3 className="product-name"><a href="single-product.html">{clothe.name}</a></h3>
-                                    <div className="price-box">
-                                        <span className="new-price">{clothe.price + " Lek"}</span>
-                                    </div>
-                                    <div className="old-price">
-                                        {"Madhesia: " + clothe.size}
-                                    </div>
-                                </div>
-                            </div>
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <Link to={"/product/" + clothe.id}>
+                    <div className="rounded bg-red-50 shadow-lg">
+                        <a className="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={clothe.pictures[0]} alt={clothe.description}></img>
+                        </a>
+                        <div className="mt-4 text-center">
+                            <h3 className="text-gray-900 title-font text-lg font-medium">{clothe.name}</h3>
+                            <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">{clothe.category}</h3>
+                            <p className="mt-1">{clothe.price + " Lek"}</p>
                         </div>
                     </div>
-            </Link>
-                </div>
+                </Link >
+            </div>
+
         )
     }
 

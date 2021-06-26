@@ -6,9 +6,9 @@
     'description':'{{lorem(1,"paragraphs")}}',
     'price':'{{integer(500, 9999)}}',
     'color':'{{random( "AliceBlue","AntiqueWhite","Aqua","Azure","Beige","Bisque","Black","Blue","BlueViolet","Brown")}}',
-    'category':'{{random("fustan","lesh","presh","kudine")}}',
+    'category':'{{random("Bluze","Funde","Pantollona te shkurtra","Xhinse", "Fustane","Cante","Xhaketa","Pulovra","Xhupe","Pallto")}}',
     'pictures':['{{repeat(2,5)}}','https://picsum.photos/200'],
-    'size':'{{random("M","S","X","XXL","XL")}}',
+    'size':['{{repeat(1,3)}}','{{random("M","S","X","XXL","XL")}}'],
     'tags':['{{repeat(7)}}','{{lorem(1,"words")}}']
     
     

@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: 'comic_queensregular';
+    src: url('comic_quenn-webfont.woff2') format('woff2'),
+         url('comic_quenn-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'comic_queensregular';
+    src: url('comic_quenn-webfont.woff2') format('woff2'),
+         url('comic_quenn-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {font: 16px}
+h1 {font-size: 2.25em;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.75em;}
+h4 {font-size: 1.5em;}
+p {font-size: 1.25em;}
+/*Layout*/
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {color: #333;}
+
+:root{
+    --main-color: #fc0474;
+    --secondary-color:#fcfb34;
+}
+
+#header_logo{
+    font-family:'comic_queensregular','Arial' ;
+    color:var(--main-color);
+    text-shadow: 3px 3px var(--secondary-color);
+}
+#hero{
+    background-image: url('./hero_unstplash.jpg');
+}

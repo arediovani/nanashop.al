@@ -1,39 +1,24 @@
 import React from 'react'
+import { FaInstagram } from "react-icons/fa"
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+    Link
 } from "react-router-dom";
-const Header = () =>{
-    return(
-        <header className="main-header_area-2">
-            <div className="header-middle_area">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="header-middle_nav">
-                                <div className="header-logo_area">
-                                    <Link to="/">
-                                        <img src="assets/images/menu/logo/1.png" alt="Header Logo"></img>
-                                    </Link>
-                               </div>
-                                <div className="header-contact d-none d-md-flex">
-                                    <i className="fa fa-headphones-alt"></i>
-                                    <div className="contact-content">
-                                        <p>
-                                           Na Kontaktoni 
-                                            <br></br>
-                                        Free Support: blablabla
-                                    </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+const Header = () => {
+    return (
+        <nav className="bg-white shadow dark:bg-gray-800">
+            <div className="container px-6 py-4 mx-auto items-baseline">
+                <div className="flex justify-between mt-6  lg:mt-0 lg:-mx-2">
+                    <Link to="/">
+                        <a id="header_logo" className="text-2xl text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="#">Nana Shop</a>
+                    </Link>
+                    <div className="flex justify-start text-pink-500 hover:text-pink-200 transition-opacity align-bottom align text-2xl">
+                        <a href="https://www.instagram.com/nanashop.al/">
+                            <FaInstagram />
+                        </a>
                     </div>
                 </div>
             </div>
-        </header>
+        </nav>
     )
 }
 export default Header;
