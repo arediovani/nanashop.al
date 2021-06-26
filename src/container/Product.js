@@ -32,16 +32,17 @@ const Product = ({ clothes }) => {
                                     }
                                 </div>
                             </div>
-                            <div class="flex">
-                                <span class="title-font font-medium text-2xl text-gray-900">{clothe.price + " Lek"}</span>
+                                <h2 class="title-font font-medium text-2xl text-gray-900">{clothe.price + " Lek"}</h2>
+                            <div class="flex flex-col">
+                                <h1>Porosit duke na kontaktuar ne kto menyra:</h1>
                                 <a href={"https://wa.me/+355693300032?text=Pershendetje jam i interesuar per produktin" + clothe.name + " " + "me id:" + clothe.id}>
-                                    <button class="flex ml-auto text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-200 hover:text-black transition-all duration-100 rounded">Blije me Whatsapp</button>
+                                    <button class="m-2 ml-auto text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-200 hover:text-black transition-all duration-100 rounded">Blije me Whatsapp</button>
                                 </a>
                                 <a href={"viber://add?number=355693300032"}>
-                                    <button class="flex ml-auto text-white bg-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-purple-200 hover:text-black transition-all duration-100 rounded">Blije me Viber</button>
+                                   <button class="m-2 ml-auto text-white bg-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-purple-200 hover:text-black transition-all duration-100 rounded">Blije me Viber</button>
                                 </a>
                                 <a href="tel:355693300032">
-                                    <button class="flex ml-auto text-white bg-indigo-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-200 hover:text-black transition-all duration-100 rounded">Telefono</button>
+                                    <button class="m-2 ml-auto text-white bg-indigo-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-200 hover:text-black transition-all duration-100 rounded">Telefono</button>
                                 </a>
                             </div>
                         </div>

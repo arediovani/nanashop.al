@@ -1,10 +1,11 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import Header from '../component/Header'
 import Footer from '../component/Footer'
 import Home from './Home'
 import Product from './Product'
-import data from '../data.json'
 import NoMatch from './NoMatch'
+import data from '../data.json'
+import categorydata from '../category.json'
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,17 +13,18 @@ import {
   Link
 } from "react-router-dom";
 function App() {
-  const [clothes,setCount] = useState(data)
+  const [clothes, setCount] = useState(data)
+  const [categories, setCategories] = useState(categorydata)
   return (
     <Router>
       <Header />
       <Switch>
         <Route exact path="/">
-          <Home clothes={clothes}/>
+          <Home clothes={clothes} categories={categories} />
         </Route>
-        <Route path="/product/:id" children={<Product clothes={clothes}/>}/>
+        <Route path="/product/:id" children={<Product clothes={clothes} />} />
         <Route path="*">
-          <NoMatch/>
+          <NoMatch />
         </Route>
       </Switch>
       <Footer />

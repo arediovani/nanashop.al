@@ -1,11 +1,13 @@
 import React from 'react'
 import Hero from '../component/Hero'
 import HomeListItems from '../component/HomeListItems'
-const Home = ({clothes}) => {
+import Filters from './Filters'
+const Home = ({ clothes, categories }) => {
     return (
         <div>
             <Hero />
-            <HomeListItems clothes={clothes}/>
+            <Filters categories={categories}/>
+            <HomeListItems clothes={clothes} />
         </div>
     )
 }
