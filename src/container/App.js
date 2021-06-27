@@ -15,14 +15,30 @@ import {
 function App() {
   const [clothes, setCount] = useState(data)
   const [categories, setCategories] = useState(categorydata)
+  const [filterStatus, setfilterStatus] = useState("")
+
+  const filterChange = (filterChange) => {
+    setfilterStatus(filterChange)
+  }
+  useEffect(() => {
+  })
+  let filteredClothes = clothes
+  if (filterStatus) {
+     filteredClothes = clothes.filter(value => {
+      if (value.category === filterStatus.label) {
+        return value
+      }
+    })
+  }
+
   return (
     <Router>
       <Header />
       <Switch>
         <Route exact path="/">
-          <Home clothes={clothes} categories={categories} />
+          <Home clothes={filteredClothes} categories={categories} filterChange={filterChange} />
         </Route>
-        <Route path="/product/:id" children={<Product clothes={clothes} />} />
+        <Route path="/product/:id" children={<Product clothes={filteredClothes} />} />
         <Route path="*">
           <NoMatch />
         </Route>
