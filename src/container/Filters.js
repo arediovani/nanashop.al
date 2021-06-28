@@ -8,6 +8,7 @@ export default function Filters({ categories, filterChange }) {
       <h3>Numri total i veshjeve: {data.length}</h3>
       <h4>Filtroni produktet sipas preferencave:</h4>
       <Select
+        isSearchable={false}
         placeholder="Lloji i veshjes"
         name="categories"
         options={categories}

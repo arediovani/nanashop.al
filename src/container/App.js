@@ -38,7 +38,7 @@ function App() {
         <Route exact path="/">
           <Home clothes={filteredClothes} categories={categories} filterChange={filterChange} />
         </Route>
-        <Route path="/product/:id" children={<Product clothes={filteredClothes} />} />
+        <Route path="/product/:id" children={<Product clothes={clothes} />} />
         <Route path="*">
           <NoMatch />
         </Route>
