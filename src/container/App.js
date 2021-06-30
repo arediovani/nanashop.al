@@ -15,20 +15,24 @@ import {
 function App() {
   const [clothes, setCount] = useState(data)
   const [categories, setCategories] = useState(categorydata)
-  const [filterStatus, setfilterStatus] = useState("")
+  const [filterStatus, setfilterStatus] = useState({
+    "filter": "all",
+    "order": "desc"
+  })
 
   const filterChange = (filterChange) => {
+    console.log(filterChange)
     setfilterStatus(filterChange)
   }
   useEffect(() => {
   })
-  let filteredClothes = clothes
-  if (filterStatus) {
-     filteredClothes = clothes.filter(value => {
-      if (value.category === filterStatus.label) {
-        return value
-      }
+  let filteredClothes;
+  if (!filterStatus.filter === "all") {
+    filteredClothes = clothes.filter(value => {
+      if (value.category === filterStatus.label) { return value }
     })
+  } else {
+    filteredClothes = clothes
   }
 
   return (

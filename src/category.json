@@ -1,4 +1,5 @@
 [
+  { "value": "all", "label": "all" },
   { "value": "bluze", "label": "Bluzë" },
   { "value": "funde", "label": "Funde" },
   { "value": "pantollona_shkurtra", "label": "Pantollona të shkurtra" },
