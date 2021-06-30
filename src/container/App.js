@@ -12,27 +12,25 @@ import {
   Route,
   Link
 } from "react-router-dom";
+
 function App() {
   const [clothes, setCount] = useState(data)
   const [categories, setCategories] = useState(categorydata)
   const [filterStatus, setfilterStatus] = useState({
-    "filter": "all",
-    "order": "desc"
+    "label": "all"
   })
 
   const filterChange = (filterChange) => {
-    console.log(filterChange)
     setfilterStatus(filterChange)
   }
-  useEffect(() => {
-  })
-  let filteredClothes;
-  if (!filterStatus.filter === "all") {
+
+  useEffect(() => { })
+
+  let filteredClothes = clothes;
+  if (filterStatus.label != "all") {
     filteredClothes = clothes.filter(value => {
       if (value.category === filterStatus.label) { return value }
     })
-  } else {
-    filteredClothes = clothes
   }
 
   return (
@@ -42,7 +40,7 @@ function App() {
         <Route exact path="/">
           <Home clothes={filteredClothes} categories={categories} filterChange={filterChange} />
         </Route>
-        <Route path="/product/:id" children={<Product clothes={clothes} />} />
+        <Route path="/product/:id" children={<Product clothes={filteredClothes} />} />
         <Route path="*">
           <NoMatch />
         </Route>
