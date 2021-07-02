@@ -10,9 +10,9 @@ const HomeItem = ({ clothe }) => {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                 <Link to={"/product/" + clothe.id}>
                     <div className="rounded bg-red-50 shadow-lg">
-                        <a className="block relative h-48 rounded overflow-hidden">
+                        <div className="block relative h-48 rounded overflow-hidden">
                             <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={clothe.pictures[0]} alt={clothe.description}></img>
-                        </a>
+                        </div>
                         <div className="mt-4 text-center">
                             <h3 className="text-gray-900 title-font text-lg font-medium">{clothe.name}</h3>
                             <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">{clothe.category}</h3>
