@@ -35,7 +35,7 @@ function App() {
 
   if (filterStatus.label != "all") {
     filteredClothes = clothes.filter(value => {
-      if (value.category === filterStatus.label) {
+      if (value.category === filterStatus.value) {
         return value
       }
     })
