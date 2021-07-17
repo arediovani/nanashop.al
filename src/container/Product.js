@@ -2,16 +2,19 @@ import React from 'react'
 import NoMatch from './NoMatch';
 import { useParams } from 'react-router-dom'
 import Carousel from 'react-elastic-carousel'
+import data from '../data.json'
 const Product = ({ clothes }) => {
     let { id } = useParams();
+    id = id * 1
     if (clothes.length > 0) {
         let clothe = {}
-        for (let i = 0; i < clothes.length; i++) {
-            if (clothes[i].id === id) {
-               clothe = clothes[i]
+        data.forEach(el => {
+            if (el.id === id) {
+                clothe = el
             }
-        }
+        })
 
+        console.log(clothe)
         return (
             <section className="text-gray-600 body-font overflow-hidden">
                 <div className="container px-5 py-24 mx-auto">
